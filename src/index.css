@@ -1,13 +1,220 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.center {
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.yourvote {
+  text-align: right;
+  background: rgb(175, 248, 4);
+  font-size: 16px;
+  
+  
+}
+.userpoll {
+  width: 100%;
+  max-width: 550px;
+  padding: 10px;
+  display: flex;
+  margin: 0 auto;
+  border: 1px solid #242020;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.leaderboard {
+  width: 90%;
+  max-width: 700px;
+  padding: 15px;
+  display: flex;
+  margin: 0 auto;
+  border: 1px solid #242020;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.avatar {
+  height: 50px;
+  border-radius: 25px;
+  margin: 10px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #252525;
+}
+
+a {
+  text-decoration: none;
+  color: #252525;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.button {
+  text-transform: uppercase;
+  margin: 35px auto;
+  padding: 10px;
+  border: 1px solid rgba(16, 17, 2, 0.29);
+  cursor: pointer;
+  background: rgb(248, 142, 142);
+  font-size: 16px;
+  width: 250px;
+  position: center;
+}
+.upper{
+  text-transform: uppercase;
+}
+.butt {
+  text-transform: uppercase;
+  margin: 30px auto;
+  padding: 2px;
+  border: 1px solid rgba(16, 17, 2, 0.29);
+  cursor: pointer;
+  background: rgb(167, 140, 231);
+  font-size: 16px;
+  width: 150px;
+  position: relative;
+}
+
+
+.but {
+  text-transform: uppercase;
+  margin: 15px auto;
+  padding: 2px;
+  border: 1px solid rgba(16, 17, 2, 0.29);
+  cursor: pointer;
+  background: rgb(209, 245, 144);
+  font-size: 16px;
+  width: 250px;
+  position: relative;
+}
+
+
+
+
+
+.btn:hover {
+  border-color: rgba(0,0,0,.5);
+  text-decoration: none;
+}
+
+.btn:focus {
+  outline: 0;
+  font-weight: 700;
+  border-width: 2px;
+}
+
+.center {
+  text-align: center;
+}
+.center1 {
+  text-align: center;
+  background-color: rgb(235, 121, 183);
+}
+
+
+.active {
+  font-weight: bold;
+  
+}
+.active1 {
+  font-weight: bold;
+  background-color: rgb(235, 121, 183);
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.nav li:first-child {
+  padding-left: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  text-decoration: none;
+}
+
+
+
+
+.question-info {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hacky but less typing in the video */
+.question-info > div > span:first-child {
+  font-weight: bold;
+  margin-right: 5px;
+}
+.question-info > div > span:nth-child(2) {
+  color: #969696;
+  font-size: 16px;
+}
+.question-info > div > div {
+  color: #969696;
+  font-size: 15px;
+}
+.question-info > div > p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.question-icons {
+  display: flex;
+  align-items: center;
+}
+.question-icons > span {
+  color: #969696;
+  margin: 0 15px 0 5px;
+  font-size: 18px !important;
+}
+.question-icon {
+  font-size: 27px;
+  color: #697784;
+}
+.question-icon:hover {
+  color: #00b5d6;
+  cursor: pointer;
+}
+
+
+.heart-button {
+  background: transparent;
+  border: none;
+}
+
+.new-question {
+  width: 60%;
+  max-width: 350px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.textarea {
+  border-radius: 4px;
+  border: 1px solid #dad7d7;
+  padding: 10px;
+  font-size: 15px;
+  height: 60px;
+}
+
+.question-length {
+  text-align: right;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #C3392A;
 }
